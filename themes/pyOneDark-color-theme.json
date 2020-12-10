@@ -121,7 +121,7 @@
 		"*.builtin": "#2bbac5",
 		"magicFunction": "#38c5a2",
 		"*.decorator": "#E5C07B",
-		"variable.defaultLibrary": "#e5c07b"
+		"variable.defaultLibrary": "#e5c07b",
 	},
 	"tokenColors": [
 		{
@@ -141,7 +141,9 @@
 				"storage.type.primitive",
 				"support.class",
 				"support.other.namespace",
-				"variable.language.this"
+				"variable.language.this",
+				"meta.function.parameters.python",
+				"meta.function.python"
 			],
 			"settings": {
 				"foreground": "#e5c07b"
@@ -196,7 +198,12 @@
 			"name": "Ivory",
 			"scope": [
 				"punctuation.separator",
-				"support.type.property-name.css"
+				"support.type.property-name.css",
+				"punctuation.section.function.begin.python",
+				"punctuation.section.function.end.python",
+				"punctuation.definition.parameters.end.python",
+				"punctuation.definition.parameters.begin.python",
+				"entity.name.function.member"
 			],
 			"settings": {
 				"foreground": "#abb2bf"
@@ -227,6 +234,7 @@
 		{
 			"name": "Violet",
 			"scope": [
+				"constant.language.python",
 				"keyword.operator.new",
 				"keyword",
 				"markup.italic",
@@ -335,7 +343,7 @@
 		{
 			"name": "Magic methods",
 			"scope": [
-				"support.function.magic.python"
+				"support.function.magic.python",
 			],
 			"settings": {
 				"foreground": "#56b6c2"
