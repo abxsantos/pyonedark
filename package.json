@@ -1,0 +1,32 @@
+{
+    "name": "pyonedark",
+    "displayName": "pyOneDark",
+    "description": "One Dark based theme adaptation for python development",
+    "publisher": "abxsantos",
+    "author": {
+        "name": "Alexandre Xavier"
+    },
+
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "keywords": [
+        "Python One Dark",
+        "One Dark",
+        "Atom One Dark",
+        "Dark"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pyOneDark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pyOneDark-color-theme.json"
+            }
+        ]
+    }
+}
