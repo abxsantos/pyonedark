@@ -113,7 +113,7 @@
 		"titleBar.inactiveBackground": "#21252b",
 		"titleBar.inactiveForeground": "#6b717d"
 	},
-	"name": "One Dark Python",
+	"name": "pyOne Dark",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"enumMember": "#d19a66",
